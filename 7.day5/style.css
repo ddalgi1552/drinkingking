@@ -1,0 +1,32 @@
+@import url(../style.css);
+@import url(../비내리는효과/style.css);
+body {
+	text-align: center;
+}
+
+#title {
+	height: 150px;
+	width: 400px;
+}
+
+#board {
+	width: 1020px;
+	height: 999px;
+	background-color: white;
+	border: 30px solid white;
+	border-radius: 30px;
+
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#board img {
+	width: 333px;
+	height: 333px;
+	border: 1px solid white;
+}
+
+#outer{
+	background-image: url("./맑음.png");
+}

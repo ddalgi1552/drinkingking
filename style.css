@@ -1,0 +1,151 @@
+/*공통적으로 쓰이게 될 속성들입니다 */
+
+
+@font-face {
+  font-family: 'GangwonEduPowerExtraBoldA';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduPowerExtraBoldA.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html{  overflow-x:hidden;
+  overflow-y:hidden;}
+
+body {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin:0;
+  background-color: black;
+}
+
+
+.outer{
+  display: flex;
+  flex-direction: column;
+  width: 4480px;
+  height: 2520px;
+  margin-top: 200px;
+}
+
+/* D+N과 SCORE에 적용되어있습니다 */
+
+h1{
+  font-family: 'GangwonEduPowerExtraBoldA';
+  margin: 0%;
+  font-size: 130px;
+  padding: 20px;
+  color: white;
+}
+
+h2{
+  font-family: 'GangwonEduPowerExtraBoldA';
+  margin: 0%;
+  font-size: 100px;
+  padding: 20px;
+  color: white;
+}
+
+.daybox{
+  display: flex;
+  flex direction: row;
+  justify-content: space-between;
+  height: 100px;
+}
+
+.container{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height:1800px;
+}
+
+
+
+/* navbar */
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+}
+
+button.navbtn{
+  margin-top: 50px;
+  font-family: 'GangwonEduPowerExtraBoldA';
+  font-size: 100px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  border: none;
+  color: white;
+  padding: 30px;
+
+}
+
+.underbar{
+  border-bottom: 1px solid white;
+}
+
+
+/* 
+게임설명창 디자인입니다 */
+.gamediscribe{
+  margin-bottom: 100px;
+  padding-left: 30px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+
+.gamediscribe_line4{
+  text-align: left;
+  font-size: 70px;
+  font-family: 'GangwonEduPowerExtraBoldA';
+  color: black;
+  position: absolute;
+  width: 3000px;
+  bottom:225px;
+  left:1700px;
+  z-index: 16;
+  
+}
+
+.gamediscribe_line3{
+  text-align: left;
+  font-size: 70px;
+  font-family: 'GangwonEduPowerExtraBoldA';
+  color: black;
+  position: absolute;
+  width: 3000px;
+  bottom:285px;
+  left:1700px;
+  z-index: 16;
+  
+}
+
+
+.gamediscribe_line3_5{
+  text-align: left;
+  font-size: 70px;
+  font-family: 'GangwonEduPowerExtraBoldA';
+  color: black;
+  position: absolute;
+  width: 3000px;
+  bottom:324px;
+  left:1700px;
+  z-index: 16;
+  
+}
+#g_backimg{
+  position: absolute;
+  width: 3000px;
+  bottom:225px;
+  left:1500px;
+
+  z-index: 10;
+}
